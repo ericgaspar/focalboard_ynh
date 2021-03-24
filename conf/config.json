@@ -2,7 +2,7 @@
 	"serverRoot": "http://127.0.0.1:__PORT__",
 	"port": __PORT__,
 	"dbtype": "postgres",
-	"dbconfig": "./focalboard.db",
+	"dbconfig": "postgres://__DB_NAME__:__DB_PWD__@localhost/__DB_NAME__?sslmode=disable&connect_timeout=10",
 	"postgres_dbconfig": "dbname=__DB_NAME__ sslmode=disable",
 	"useSSL": false,
 	"webpath": "./pack",

@@ -4,7 +4,7 @@
 # COMMON VARIABLES
 #=================================================
 # dependencies used by the app
-pkg_dependencies="postgresql apt-transport-https"
+pkg_dependencies="postgresql postgresql-contrib"
 
 #=================================================
 # PERSONAL HELPERS
