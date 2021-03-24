@@ -1,5 +1,5 @@
 {
-    "name": "FocalBoard",
+    "name": "Focalboard",
     "id": "focalboard",
     "packaging_format": 1,
     "description": {
@@ -32,8 +32,8 @@
             {
                 "name": "path",
                 "type": "path",
-                "example": "/example",
-                "default": "/example"
+                "example": "/focalboard",
+                "default": "/focalboard"
             },
             {
                 "name": "is_public",
