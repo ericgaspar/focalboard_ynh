@@ -123,7 +123,7 @@ ynh_add_config --template="../conf/config.json" --destination="$final_path/confi
 #=================================================
 
 # Set permissions to app files
-chown -R root: $final_path
+chown -R $app: $final_path
 
 #=================================================
 # INTEGRATE SERVICE IN YUNOHOST

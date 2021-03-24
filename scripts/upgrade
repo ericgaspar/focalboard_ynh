@@ -118,7 +118,7 @@ ynh_add_config --template="some_config_file" --destination="$final_path/some_con
 #=================================================
 
 # Set permissions on app files
-chown -R root: $final_path
+chown -R $app: $final_path
 
 #=================================================
 # SETUP LOGROTATE
